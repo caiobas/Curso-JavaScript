@@ -3,12 +3,14 @@
     <title>Curso JavaScript</title>
   </head>
   <body>
-    <script>
-      function exibeAlgo() {
-        console.log('Hello World');
-      }
+    <div id="app">
+      <input onkeyup="mostraAlerta()" />
+    </div>
 
-      setTimeout(exibeAlgo, 5000);
+    <script>
+      function mostraAlerta() {
+        alert('Botão foi clicado');
+      }
     </script>
   </body>
 </html>
