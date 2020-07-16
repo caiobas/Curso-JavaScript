@@ -1,5 +1,5 @@
 //https://github.com/axios/axios
-axios.get('https://api.gitasashub.com/users/caiobas')
+axios.get('https://api.github.com/users/caiobas')
   .then(function(response) {
     console.log(response);
   })
